@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Формы</title>
+</head>
+<body>
+  <h1>Формы</h1>
+
+  <form>
+    <div>
+     <label for="Text">Tекст</label>
+     <input type="text" id="Text">
+    </div>
+  
+    <div>
+     <label for="Email">Email</label>
+     <input type="email" id="Email" placeholder="Введите эмайл">
+    </div>  
+    
+    <div>
+     <label for="password">Пароль</label>
+     <input type="password" id="password" placeholder="Введите пароль">
+    </div>
+    
+    <div>
+      <label for="number">Число</label>
+      <input type="number" id="number" placeholder="ваше любимое число">
+    </div>
+   
+    <div>
+     <label for="range">Range</label>
+     <input type="range" id="range min="0" max="10" step="1">
+    </div>
+    
+    <div>
+      <label for="date">Дата</label>
+      <input type="date" id="date">
+    </div>
+ 
+                                  
+     <div>
+      <label for="color">Цвет</label>
+      <input type="color" id="color">
+    </div> 
+   
+    <div>
+      <label for="message">Сообщение</label>
+      <br>
+      <textarea id="message" cols="20" rows="8"></textarea>
+    </div>
+                                              
+    <div>
+      <label for="sex">Ваш пол</label>
+      <select  id="sex"></select>
+        <option value="male">Мужчина</option>   
+        <option value="male">Мужчина</option>  
+        <option value="femail">Женщина</option>  
+        <option value="" selected>Другое</option>  
+      </select>
+    </div>
+
+    <div>
+        <label>Количество работ</label>
+        <input type=radio name="work"> 1
+        <input type=radio name="work"> 2
+        <input type=radio name="work"> 3
+        <input type=radio name="work"> 4
+        <input type=radio name="work"> 5
+    </div> 
+
+    <div>
+        <label>ОТ скольки лет</label>
+        <input type=checkbox name="food"> 4
+        <input type=checkbox name="food"> 8
+        <input type=checkbox name="food"> 55
+        <input type=checkbox name="food"> 43
+        <input type=checkbox name="food"> 45
+    </div> 
+
+    <div>
+        <label for="reset">Очистить форму</label>
+        <input type="reset">
+    </div>
+
+    <input type="submit" value="Отправить форму">
+     </form>
+</body>
+</html>
